@@ -1,0 +1,78 @@
+body{
+border: 15px;
+outline-color: #000000;
+padding: 10px;
+margin: 10px;
+background-color: #7EC2BA;
+}
+h1{
+margin: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+max-width: 1000px;
+border: 4px;
+text-align: center;
+outline-style: solid;
+outline-color: #707372;
+font-family: Arial;
+}
+h3, h4{
+margin: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+max-width: 1000px;
+text-align: center;
+font-family: Arial;
+}
+p{
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+max-width: 750px;
+text-align: center;
+font-family: Arial;
+}
+table, th, td{
+margin: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+border: 5px;
+outline-style: solid;
+outline-color: #707372;
+background-color: #FFFFFF;
+border-collapse: collapse;
+font-family: Arial;
+}
+td, th{
+width: 300px;
+border-collapse: collapse;
+text-align: center;
+padding: 5px;
+}
+a{
+margin: auto;
+font-family: Arial;
+}
+.big{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 576px;
+height: 384px;
+border: 10px;
+outline-style: solid;
+outline-color: #707372;
+}
+.highres{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.int{
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+max-width: 200px;
+text-align: center;
+font-family: Arial;
+}
