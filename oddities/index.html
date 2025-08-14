@@ -2,22 +2,48 @@
 <html lang="en">
 <link rel="stylesheet" href="theme.css">
 <head>
+<style>
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+  }
+  .column{
+    flex: 1;
+  }
+</style>
 <title>Aldridge Signals - Interesting signals</title>
 </head>
 <body>
 <a href="../index.html">Back to home</a>
 <h1>Aldridge Traffic Systems - Interesting Signals</h1>
+<br>
 <table>
   <tr>
-    <th style="selector">Interesting setups<br><img src="./home/IMG_xxxx-min.JPG" width="240px" height="360px"></th>
-    <th style="selector"><a href="./oddities/index.html">Odd lights<br><img src="./home/IMG_xxxx-min.JPG" width="240px" height="360px"></a></th>
-    <th style="selector"><a href="./tram/index.html">Tram Depots<br><img src="./home/IMG_xxxx-min.JPG" width="240px" height="360px"></a></th>
+    <th style="selector">Interesting setups<br><img src="./home/IMG_xxxx-min.JPG" width="240px" height="160px"></th>
+    <th style="selector"><a href="./oddities/index.html">Odd lights<br><img src="./home/IMG_xxxx-min.JPG" width="240px" height="160px"></a></th>
+    <th style="selector"><a href="./tram/index.html">Tram Depots<br><img src="./home/IMG_xxxx-min.JPG" width="240px" height="160px"></a></th>
   </tr>
 </table>
-<table class="maincol">
-  <tr>
-    <td width="30%">text</td>
-  </tr>
-</table>
+<br>
+  <div class="main">
+    <div class="column">
+      <table class="maincol">
+        <tr>
+          <td width="70">image placeholder</td>
+          <td width="30%">text</td>
+        </tr>
+      </table>
+    </div>
+    <div class="column">
+      <table class="maincol">
+        <tr>
+          <td width="70">image2placeholder</td>
+          <td width="30">text2</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 </body>
 </html>
